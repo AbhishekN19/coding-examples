@@ -1,0 +1,57 @@
+/* ---------------------- elements ----------------------  */
+
+h1 {
+    margin-left: 350px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 52px;
+}
+
+li {
+    background-color: aqua;
+    color: darkolivegreen;
+    padding: 5px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 28px;
+    list-style-type: none;
+}
+
+li:nth-child(odd) {
+    background-color: aquamarine;
+}
+    
+li:hover {
+    background-color: black;
+    color: white;
+}
+
+/* ---------------------- classes ----------------------  */
+
+li.crossout {
+    text-decoration: line-through;
+    background-color: blue;
+    color: whitesmoke;
+}
+
+/* ---------------------- ids ----------------------  */
+
+#add-btn { 
+
+}
+
+
+#todo-input {
+    align-items: center;
+    margin-left: 350px;
+    margin: 50px;
+    width: 500px;
+    border: none;
+    border-bottom: 2px solid black;
+}
+
+.todo-list {
+
+}
+
+#todo-title {
+
+}

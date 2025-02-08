@@ -3,9 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> 
+    <script src="script.js"></script>
+    <link rel="Stylesheet" href="style.css" >
+    <title>ToDo list</title>
 </head>
 <body>
-    
+    <div class="container">
+        <h1 id="todo-title">My To Do List</h1>
+        <input type="text" id="todo-input" placeholder="Task...">
+        <button id="add-btn" onclick="newTask()"> Add </button>
+    </div>
+    <div class="container"> 
+        <ul class="todo-list" id="to-do-list" onclick="crossOut()">
+            <li>Add Task to the list</li>
+            <li>test</li>
+            <li class="crossout">test</li>
+            <li>test</li>
+        </ul>
+    </div>   
 </body>
 </html>

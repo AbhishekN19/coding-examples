@@ -1,0 +1,12 @@
+.food-image {
+    display: flex;
+    width: 200px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.item-description {
+    text-align: center;
+}

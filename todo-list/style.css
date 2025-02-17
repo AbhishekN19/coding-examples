@@ -26,7 +26,7 @@ li:hover {
 
 /* ---------------------- classes ----------------------  */
 
-li.crossout {
+ul li.checked {
     text-decoration: line-through;
     background-color: blue;
     color: whitesmoke;

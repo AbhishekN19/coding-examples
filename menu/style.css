@@ -1,3 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Pacifico&display=swap');
+/* ---------------- Mains ----------------*/
+body {
+    background-color: ghostwhite;
+    font-family:"Pacifico", serif;
+}
+
+div h1 {
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+    color: red;
+}
+
+a {
+    margin: 2em;
+}
+
+a:hover {
+    text-decoration: none;
+}
+/* ---------------- Class ---------------- */
+
+.brand {
+    font-family: "Great Vibes", serif;
+    rotate: -30deg;
+    font-size: 42px;
+    padding: 40px;
+    text-align: center;
+    margin-right: 5px;
+    font-style: italic;
+    color: white;
+    text-shadow: 5px 3px black;
+    
+}
+
+.brand-slogan {
+    text-transform: uppercase;
+    font-size: 20px;
+    text-shadow: 2px 3px white;
+}
+.container {
+    padding:2em;
+}
+.eat-what {
+    margin-top: 20px;
+    text-align: center;
+}
 .food-image {
     display: flex;
     width: 200px;
@@ -5,8 +52,23 @@
     justify-content: center;
     align-items: center;
     margin-left: 50px;
+    transition: all 50ms;
+    border-radius: 50%;
+}
+
+.food-image:hover {
+    width: 210px;
+    
 }
 
 .item-description {
     text-align: center;
+}
+.useful-link {
+    color: black;
+}
+
+.window {
+    text-align: center;
+    background:radial-gradient(circle, rgba(251,63,63,1) 0%, rgba(252,222,70,1) 100%)
 }

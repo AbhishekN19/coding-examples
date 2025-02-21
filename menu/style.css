@@ -1,16 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Pacifico&display=swap');
 /* ---------------- Mains ----------------*/
-body {
-    background-color: ghostwhite;
-    font-family:"Pacifico", serif;
-}
-
-div h1 {
-    text-align: left;
-    font-family: 'Courier New', Courier, monospace;
-    color: red;
-}
-
 a {
     margin: 2em;
 }
@@ -18,32 +7,54 @@ a {
 a:hover {
     text-decoration: none;
 }
+body {
+    background-color: black;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+div h1 {
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+    color: red;
+    margin-left: 30px;
+}
+
+hr .line {
+    border-top: 3px solid #bbb;
+}
 /* ---------------- Class ---------------- */
 
 .brand {
     font-family: "Great Vibes", serif;
-    rotate: -30deg;
-    font-size: 42px;
+    rotate: -10deg;
+    font-size: 52px;
     padding: 40px;
     text-align: center;
     margin-right: 5px;
     font-style: italic;
     color: white;
-    text-shadow: 5px 3px black;
+    text-shadow: 3px 3px black;
     
 }
 
 .brand-slogan {
     text-transform: uppercase;
     font-size: 20px;
-    text-shadow: 2px 3px white;
 }
 .container {
     padding:2em;
 }
+
+.container-1 {
+    background-color: white;
+}
 .eat-what {
     margin-top: 20px;
     text-align: center;
+}
+.eat-what2 {
+    text-align: center;
+
 }
 .food-image {
     display: flex;
@@ -54,21 +65,122 @@ a:hover {
     margin-left: 50px;
     transition: all 50ms;
     border-radius: 50%;
+    zoom: 0%;
+    padding: 10px;
 }
 
 .food-image:hover {
-    width: 210px;
+    transform: scale(1.2);
     
 }
+
+.foot {
+    background-color: rgb(53, 52, 52);
+}
+
+.foot-brand {
+    color: beige;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 16;
+}
+
+.footer-info  {
+    text-align: center;
+    color: rgb(42, 88, 102);
+    font-size: 16px;
+}
+
+.head-logo {
+    background-color: white;
+}
+/* .img-pizza {                                                        
+    z-index: -1;
+    opacity: 50%;
+    top: 25%;
+    left: 40%;
+ */
 
 .item-description {
     text-align: center;
 }
+
+.log-in {
+    background-color: white;
+    border-radius: 3px;
+    padding: 5px 25px;
+    color: black;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.log-in:hover {
+    color: black;
+}
+
+.main-menu {
+    background-color: white;
+}
+
+.offer-bar {
+    color: rgb(128, 168, 221);
+    background-color: rgb(20, 45, 66) ;
+}
+.offer-bar option {
+    color:  rgb(128, 168, 221);
+    background-color:  rgb(20, 45, 66)  ;
+}
+
+.offer-bar select {
+    color:  rgb(128, 168, 221);
+    background-color:  rgb(20, 45, 66)  ;
+}
+
+.offer-bar_menu {
+    display: grid;
+    align-items: center;
+}
+.offer-bar_menu p {
+    text-align: center;
+}
+
+.offer-bar_offers {
+    display: grid;
+    align-items: center;
+}
+
+.offer-bar_offers p {
+    text-align: center;
+}
+
+.register {
+    border-style: solid;
+    border-color: white;
+    border-radius: 3px;
+    border-width: 1px;
+    padding: 5px 35px;
+    color: white;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.register:hover {
+    color: white;
+}
+
+.socials {
+    color: black;
+}
+
+.social-img {
+    width: 20px;
+}
+
 .useful-link {
     color: black;
 }
 
 .window {
     text-align: center;
-    background:radial-gradient(circle, rgba(251,63,63,1) 0%, rgba(252,222,70,1) 100%)
+    background:red;
 }

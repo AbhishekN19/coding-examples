@@ -58,15 +58,16 @@ hr .line {
 }
 .food-image {
     display: flex;
-    width: 200px;
-    text-align: center;
-    justify-content: center;
+    align-content: center;
     align-items: center;
-    margin-left: 50px;
+    justify-content: center;
+    margin-left: 5em ;
+    width: 200px;
+    height: 200px;
     transition: all 50ms;
     border-radius: 50%;
-    zoom: 0%;
     padding: 10px;
+    background-color: rgb(236, 230, 202);
 }
 
 .food-image:hover {
@@ -91,6 +92,12 @@ hr .line {
     font-size: 16px;
 }
 
+
+.footer-info__title {
+    line-height: 2;
+    text-align: center;
+}
+
 .head-logo {
     background-color: white;
 }
@@ -99,8 +106,8 @@ hr .line {
     opacity: 50%;
     top: 25%;
     left: 40%;
- */
-
+    */
+    
 .item-description {
     text-align: center;
 }
@@ -108,10 +115,13 @@ hr .line {
 .log-in {
     background-color: white;
     border-radius: 3px;
-    padding: 5px 25px;
+    padding: 12px 45px;
     color: black;
     font-size: 24px;
     text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: bold;
+    line-height: 2;
 }
 
 .log-in:hover {
@@ -133,7 +143,7 @@ hr .line {
 
 .offer-bar select {
     color:  rgb(128, 168, 221);
-    background-color:  rgb(20, 45, 66)  ;
+background-color:  rgb(20, 45, 66)  ;
 }
 
 .offer-bar_menu {
@@ -158,10 +168,12 @@ hr .line {
     border-color: white;
     border-radius: 3px;
     border-width: 1px;
-    padding: 5px 35px;
+    padding: 10px 35px;
     color: white;
     font-size: 24px;
     text-transform: uppercase;
+    letter-spacing: 3px;
+    line-height: 4;
 }
 
 .register:hover {
@@ -176,6 +188,16 @@ hr .line {
     width: 20px;
 }
 
+.title-logo {
+    text-decoration: none;
+    color: red;
+}
+
+.title-logo:hover {
+    text-decoration: none;
+    color: red;
+}
+
 .useful-link {
     color: black;
 }
@@ -184,3 +206,25 @@ hr .line {
     text-align: center;
     background:red;
 }
+
+@media all and (min-width: 480px) {
+    .footer-info  {
+        text-align: left;
+        color: rgb(42, 88, 102);
+        font-size: 16px;
+    }
+
+    .food-image {
+    
+        margin-left:0px ;
+    }
+    
+}
+
+@media all and (min-width: 1000px) {
+    .food-image {
+    
+        margin-left: 4em ;
+    }
+}
+

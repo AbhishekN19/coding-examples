@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+    <title>Web page</title>
+</head>
+<body>
+    <script src="https://kit.fontawesome.com/3b3f6fe170.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+
+    <div class="container-fluid headtag">
+        <h1 class="headtag-brand">Etech</h1>
+        <div class="headtag-sidebar" id="headtag-side">
+            <a href="javascript:void(0)" class="headtag-sidebar__closebtn" onclick=" unhideBar(); closeNav()">x</a>
+            <a href="#" class="headtag-itmes">menu</p>
+            <a href="#" class="headtag-itmes">info</p>
+            <a href="#" class="headtag-itmes">courses</p>
+            <a href="#" class="headtag-itmes">payment</p>
+            <a href="#" class="headtag-signin">Sign In</a>
+            <a href="#" class="headtag-signup">Sign up</a>
+        </div>
+        <div class="headtag-menu">
+            <button class="headtag-menu__btn" id="sideMenu" onclick="hideBar(); openNav()"><span class="glyphicon glyphicon-align-justify"></span></button>
+        </div>
+    </div>
+    <div class="container-fluid main">
+        <div class="row">
+            <div class="col-sm-6">
+                <h2 class="main-title">Develop your skills in a new and unique way</h2><br>
+                <p>Lorem Ipsum
+                    "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</p>
+                <div class= "main_enroll">
+                    <a href="#" class="main-title__link link1">Enroll</a>
+                    <a href="#" class="main-title__link link2"><i class="fa-solid fa-circle-play" style="color: #B197FC; margin-right: 5px;"></i>What an Etech</a>
+                </div>
+            </div>
+            <div class="col-sm-6 main-banner_right">
+                <div class="main-bannerimg_div">
+                    <div class="main-bannerimg_bg"></div>
+                    <img class="main-bannerimg" src="image/girl.png" alt="main-image" >
+                    <p  class="main-banner_info main-banner_info__img1"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnP7R14VlNujsy1k9urld65RCNTf2qHplWjg&s" class="social-img ">winning for all</p>
+                    <p  class="main-banner_info main-banner_info__img2"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWC9TsvierTnVUj-PLwMtTNhcT9NdaX0Ohxw&s" class="social-img ">change will work</p>
+                    <p  class="main-banner_info main-banner_info__img3"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJpbvkZ_7L9CFGLNIfqfOot1j97lxYc7KmVA&s" class="social-img ">working for peace</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bannerinfo">
+        <p class="brandnames"> Duolingo</p>
+        <p class="brandnames"> Magicloop</p>
+        <p class="brandnames"> Microsoft</p>
+        <p class="brandnames"> Codehub</p>
+        <p class="brandnames"> Youtube</p>
+    </div>
+    <div class="container-fluid search">
+        <br><br>
+        <h3 class="search-title">Search Courses</h3><br>
+        <input type="text" placeholder="Search..." name="search" id="search-searchbar">
+        <button type="submit" class="search-submit">Search</button><br><br>
+    </div>
+    <div class="container-fluid brandinfo">
+        <div class="row">
+            <div class="col-sm-6 brandinfo-left">
+                <div class="brandinfo-left_background">
+                    <div class="brandinfo-left_back brandinfo-left_background1"></div>
+                    <div class="brandinfo-left_back brandinfo-left_background2"></div>
+                    <div class="brandinfo-left_back brandinfo-left_background3"></div>
+                    <div class="brandinfo-left_back brandinfo-left_background4"></div>
+                        <img src="image/ppl-orange-man.png" alt="orange man" class="brandinfo-left_img brandinfo-left_img1">
+                        <img src="image/ppl-purple-boy.png" alt="purple boy" class="brandinfo-left_img brandinfo-left_img1">
+                        <img src="image/ppl-purple-girl.png" alt="purple girl" class="brandinfo-left_img brandinfo-left_img1">
+                        <img src="image/ppl-yellow-girl.png" alt="yellow girl" class="brandinfo-left_img brandinfo-left_img1">
+                </div>
+            </div><br><br><br>
+            <div class="col-sm-6 brandinfo-right">
+                <h4><strong>Benefits</strong> From our online learning</h4>
+                <ul>
+                    <!-- add imagesd for each information -->
+                    <li>Online Degrees</li>
+                    <p> "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</p>
+                    <li><img src="" class="brandinfo-right__img infoimg1">Online Degrees</li>
+                    <p> "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</p>
+                    <li><img src="" class="brandinfo-right__img infoimg1">Online Degrees</li>
+                    <p> "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</p>
+                    <li><img src="" class="brandinfo-right__img infoimg1">Online Degrees</li>
+                    <p> "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</p>
+                </ul>
+            </div>
+        </div>
+    </div><br><br><br><br>
+    <div class="container-fluid courses">
+        <div class="row">
+            <div class="col-sm-12">
+                <h2 class="courses-title">Our Popular Courses</h2><br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tempor sagittis tellus non fringilla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris vitae nisl scelerisque nisl condimentum vehicula. Aenean ipsum est, euismod eu laoreet in, facilisis in sapien. Pellentesque et dapibus arcu.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="courses-div">
+                    <div class="courses-div_img">
+                        <img src="https://plus.unsplash.com/premium_photo-1680680514571-e16201d23e9d?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bGFwdG9wJTIwb24lMjBkZXNrfGVufDB8fDB8fHww" alt="course img3" class="courses-img courses-img__1">
+                    </div>
+                    <div class="courses-div_ratings">
+                        <p id="courses_star">4.5 <i class="fa-solid fa-star"></i></p>
+                        <p id="courses_tag">Recomended</p>
+                    </div>
+                    <div class="courses_name">
+                        <p id="courses_name_title">  Web Design & Development</p>
+                    </div>
+                    <div class="courses_type">
+                        <p class="courses_type__booking courses_type__booking1"><i class="fa-solid fa-book-open"></i> Booking open</p>
+                        <p class="courses_type__booking courses_type__booking2"><i class="fa-solid fa-dollar-sign"></i> Buy Now</p>
+                    </div>
+                    <div classes="courses_cost">
+                        <p class="courses_cost__price">$ 6000</p>
+                        <p class="courses_cost__teacher"><img class="courses_teacher__img" src="https://thumbs.dreamstime.com/b/portrait-young-handsome-happy-man-wearing-glasses-casual-smart-blue-clothing-yellow-color-background-square-composition-200740125.jpg" alt="john"> John Will</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="courses-div">
+                    <div class="courses-div_img">
+                        <img src="https://images.unsplash.com/photo-1453928582365-b6ad33cbcf64?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8bGFwdG9wJTIwb24lMjBkZXNrfGVufDB8fDB8fHww" alt="course img3" class="courses-img courses-img__2">
+                    </div>
+                    <div class="courses-div_ratings">
+                        <p id="courses_star">4.9 <i class="fa-solid fa-star"></i></p>
+                        <p id="courses_tag">Featured</p>
+                    </div>
+                    <div class="courses_name">
+                        <p id="courses_name_title"> Planning daily Task</p>
+                    </div>
+                    <div class="courses_type">
+                        <p class="courses_type__booking courses_type__booking1"><i class="fa-solid fa-book-open"></i> Booking open</p>
+                        <p class="courses_type__booking courses_type__booking2"><i class="fa-solid fa-dollar-sign"></i> Buy Now</p>
+                    </div>
+                    <div classes="courses_cost">
+                        <p class="courses_cost__price">$ 3000</p>
+                        <p class="courses_cost__teacher"><img class="courses_teacher__img" src="https://www.shutterstock.com/image-photo/portrait-beautiful-young-woman-over-260nw-419163175.jpg" alt="Misty"> Misty Lake</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="courses-div">
+                    <div class="courses-div_img">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWqZ8YDzmHlvTfWtMutErmjNDnqDd9kYzuNw&s" alt="course img3" class="courses-img courses-img__3">
+                    </div>
+                    <div class="courses-div_ratings">
+                        <p id="courses_star">4.7 <i class="fa-solid fa-star"></i></p>
+                        <p id="courses_tag">Most Sold</p>
+                    </div>
+                    <div class="courses_name">
+                        <p id="courses_name_title">  Building a Social Media Page</p>
+                    </div>
+                    <div class="courses_type">
+                        <p class="courses_type__booking courses_type__booking1"><i class="fa-solid fa-book-open"></i> Booking open</p>
+                        <p class="courses_type__booking courses_type__booking2"><i class="fa-solid fa-dollar-sign"></i> Buy Now</p>
+                    </div>
+                    <div classes="courses_cost">
+                        <p class="courses_cost__price">$ 4500</p>
+                        <p class="courses_cost__teacher"><img class="courses_teacher__img" src="https://as1.ftcdn.net/jpg/02/65/72/98/1000_F_265729869_mYcOBHGd1ifo9ocwmfDIc4tl5jN7M7sy.jpg" alt="Harry"> Harry Morgan</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid certification">
+        <div class="row">
+            <div class="col-sm-6 courses-instructor">
+                <div class="courses-instructor_main">
+                    <h2 class="courses-instructor_main__title">If you are A Certified Teacher Then <strong>Become An Instructor</strong> </h2><br>
+                    <p class="courses-instructor_main__content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer blandit risus in pulvinar imperdiet. Maecenas efficitur, lorem rutrum venenatis semper, dui tortor condimentum purus, nec maximus dui justo eu tortor. Aenean finibus augue ut libero congue lobortis. Cras iaculis non eros vehicula feugiat. </p>
+                
+                    <h1 class="courses-instructor_main__perktitle">Enjoy Many Perks</h1>
+                    <br><br>
+                    <ul class="courses-instructor_main__perks">
+                        <li> Department of Education</li>
+                        <li> Director of Education</li>
+                        <li> Board of Educations</li>
+                        <li> Commissioner of Education</li>
+                        <li> Comprehensive Education</li>
+                        <li> Wild Education</li>
+                        <li> Mild Education</li>
+                        <li> Normal Education</li>
+                    </ul><br>
+                    <div class="courses-instructor_apply">
+                        <a href="#" class="courses-instructor_apply__link">Become An Instructor</a>
+                    </div>
+                    <br><br>
+                </div>
+            </div>
+            <div class="col-sm-6 courses-instructor_image">
+                    <div class="courses-instructor_teacher__bg">
+                        <img src="image/glasses-girl.png" alt="glasses lady" class="certification-img">
+                    </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid feedback">
+        <div class="row foot-feedback">
+            <h2>Student testimonies</h2><br>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tempor sagittis tellus non fringilla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris vitae nisl scelerisque nisl condimentum vehicula. Aenean ipsum est, euismod eu laoreet in, facilisis in sapien. Pellentesque et dapibus arcu.</p>
+        </div>
+        <div class="row foot-studentfeedback">
+            <div class="col-sm-4">
+                <div class="studentfeedback">
+                    <img src="https://thumbs.dreamstime.com/b/man-feeling-suspicious-face-expression-emotion-hesitating-facial-studio-shot-white-isolated-background-copy-space-90927117.jpg" alt="walter" class="student-img student-img_1">
+                    <p class="student-name">Walter Milton</p>
+                    <p class="student-feedback_info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tempor sagittis tellus non fringilla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="studentfeedback">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRi8TXJkgQs3Noie3UfxUws1i6w7DKb_GXiiA&s" alt="James" class="student-img student-img_1">
+                    <p class="student-name">James Hill</p>
+                    <p class="student-feedback_info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tempor sagittis tellus non fringilla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="studentfeedback">
+                    <img src="https://static.vecteezy.com/system/resources/thumbnails/029/690/645/small/a-woman-in-a-hooded-jacket-standing-in-the-rain-photo.jpeg" alt="Veronica" class="student-img student-img_1">
+                    <p class="student-name">Varonica Clues</p>
+                    <p class="student-feedback_info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tempor sagittis tellus non fringilla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
